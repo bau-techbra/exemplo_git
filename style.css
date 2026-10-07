@@ -1,0 +1,84 @@
+/* REGRA PARA O BODY */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* REGRA PARA O DIV PRINCIPAL*/
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0px 2px 8px #b4b4b4;
+}
+
+/* REGRA PARA O TIULO QUE ESTA EM P*/
+.card p {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* Deixa a frase em negrito*/
+    font-weight: bold;
+}
+
+/*Regra do Field Principal*/
+.field {
+    margin-bottom: 24px;
+}
+
+/*REGRA ETIQUETA DO EMAIL*/
+.field label {
+    margin-bottom: 14px;
+    display: flex;
+    font-size: 13px;
+    color:#000000;
+}
+
+/* REGRA DOS CARDS PARA DIGITAR*/
+.field input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+/* ELEMENTOS DO BOTÃO*/
+.btn {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background: #CC092F;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.btn:hover {
+    background: #fd1241;
+}
+/*ELEMNTO RODAPÉ*/
+.foot {
+    text-align: center;
+    font-size: 13px;
+    color: #d2143a;
+    margin-top: 14px;
+}
+.foot A {
+    color: #212121;
+    text-decoration: none;
+}
+/*ELEMENTO PRINCIPAL*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
